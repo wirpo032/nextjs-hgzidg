@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "path": "/stickers",
+  "handler": "stickers.create",
+  "config": {
+    "policies": []
+  }
+}
