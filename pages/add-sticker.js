@@ -2,8 +2,8 @@ import { useState } from 'react';
 import getConfig from 'next/config';
 
 function AddSticker() {
-  const [Virnumm, SetVirnumm] = useState('');
-  const [Nonumm, SetNonumm] = useState('');
+  const [Virnumm, setVirnumm] = useState('');
+  const [Nonumm, setNonumm] = useState('');
 
   async function AddSticker() {
     const stickersInfo = {
